@@ -3,3 +3,4 @@ d2
 d3(test2 ile eyni vaxtda)
 4cu
 5ci deyisiklik
+6ci
