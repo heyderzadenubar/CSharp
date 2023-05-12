@@ -1,0 +1,3 @@
+d1(add-dan qabaq)
+d2(add.an sonra)
+d3
