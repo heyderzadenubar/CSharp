@@ -1,7 +1,0 @@
-d1(add-dan qabaq)
-d2(add.an sonra)
-d3
-d4(repository-den sonra)
-d5(file-in icinde)
-d6 (respositoryden sonra stagingde olan fayli deyisdik)
-d7 (git pushdan sonra)
