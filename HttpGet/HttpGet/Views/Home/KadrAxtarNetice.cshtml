@@ -1,0 +1,30 @@
+﻿@using HttpGet.Models;
+@model List<Kadrlar>
+
+@{
+    ViewBag.Title = "KadrAxtarNetice";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>KadrAxtarNetice</h2>
+
+<table class="table-bordered table-hover table-condensed">
+    <th>ID</th>
+    <th>Ad</th>
+    <th>Soyad</th>
+    <th>Vəsiqə nömrəsi</th>
+    <th>Doğum tarixi</th>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Ad</td>
+            <td>@item.Soyad</td>
+            <td>@item.VesiqeNo</td>
+            <td>@item.DogumTarixi</td>
+        </tr>
+    }
+</table>
+
+
+

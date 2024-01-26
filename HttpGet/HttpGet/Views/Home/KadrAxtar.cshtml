@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "KadrAxtar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>KadrAxtar</h2>
+
+@using (Html.BeginForm("KadrAxtarNetice","Home",FormMethod.Get))
+{
+    <input type="text" name="kadrAdi" />
+    <br />
+    <input type="submit" value="Axtar" />
+}
+
+
+
+
+
+
